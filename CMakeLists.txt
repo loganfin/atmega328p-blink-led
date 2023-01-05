@@ -4,9 +4,7 @@ set(CMAKE_TOOLCHAIN_FILE "cmake/avr-gcc.toolchain.cmake")
 
 project(blink_led LANGUAGES C CXX ASM)
 
-include_directories(
-    include/
-)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 add_definitions(-DF_CPU=16000000)
 
