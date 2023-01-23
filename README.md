@@ -1,2 +1,2 @@
 # blink-led
-Trying to use c and cmake to blink and led on an atmega328p
+Trying to use C and CMake to blink an led on the atmega328p-based Adafruit Metro 328.
